@@ -1,0 +1,585 @@
+body{
+    font-family: 'Nunito', sans-serif; 
+    color: #1c1c1c;
+    background-color: black;
+}
+h1, h2, h3{
+    font-family: 'Asap', sans-serif;
+    color: #000000;
+}
+.imguser{
+    width: 8%;
+}
+
+.botao_produto{
+    background-color:#370064;
+    border: none;
+    color: white;
+}
+
+.botao_produto:hover{
+    color: #0A58B4;
+}
+
+.botao_cadastro{
+    background-color:#130022;
+    border: none;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.botao_cadastro:hover{
+    color: #0A58B4;
+    text-decoration: underline;
+}
+
+.carousel_text{
+    color: black;
+}
+
+.botao{
+    color:#ffffff;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #370064;
+    font-size: .9em;
+    border-radius: 3px;
+}
+
+.botao:hover{
+    background-color: white;
+    color: #43007a;
+}
+
+.botao_produtos_index{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: white;
+    font-size: .9em;
+    border-radius: 3px;
+    color: #5a0d99;
+}
+.botao_produtos_index:hover{
+    background-color: #190138;
+    color: white;
+}
+
+.logoequipe{
+    width: 10em;
+}
+.logoequipe2{
+    width: 10em;
+}
+.midia{
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.tenisafk{
+    width: 4em;
+}
+.carrinho{
+    width: 3em;
+}
+.tenis{
+    width: 10rem;
+    padding: 0%;
+    background-size: auto;
+}
+
+
+.btn{
+    background-color: #370064;
+}
+
+.div_img_modal{
+    margin: auto;
+    width: 200px;
+}
+
+.img_modal{
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #130022;
+    color: white;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: 'Jockey One', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    text-align:center;
+    width: 100%;
+
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/3.1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+header h1{
+    color: #ffffff;
+
+}
+
+header p{
+    margin-bottom: 2em;
+}
+
+#TX2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    padding: 10px 10px 30px 30px;
+    background-color: #370064;
+    color: #ffffff;  
+}
+#TX2 h2{
+    color: #ffffff;
+
+}
+#TX2 p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+#TX2 .botao{
+    background-color:#f1f1f1;
+    color: #1c1c1c;
+}
+#TX3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+#TX3 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+#img_seguidor{
+    height: 400px;
+    width: 600px;
+    image-rendering: auto;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 10px #130022;
+
+}
+#TX2 h2{
+    color: #ffffff;
+
+}
+#TX2 p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+#back{
+    padding: 0%;
+    background-color: #370064;
+    background-size: auto;
+
+}
+
+#codigo{
+    border-left: 450px;
+    border-right: 450px;
+    border-style: solid;
+    border-color: #370064;
+
+}
+.fundo{
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+
+/* OPCÃO PRA FOTOS . OPCIONAL 
+#fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:20px;
+}
+#fotos h2{
+    margin-bottom: 20px;
+
+}
+#fotos img{
+    width: 100%;
+    
+}
+*/
+#TX3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#TX3 h2 {
+    color: #000000;
+}
+
+footer{
+    text-align:center;
+    padding: 10px;
+    background-color: #43007a;
+    color:#ffffff;
+}
+footer a{
+    text-decoration: none;
+    color:#00ffff; 
+}
+@media screen and (min-width: 768px) {
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+
+    }
+    header {
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+    #TX2 {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    #TX3 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    #TX3 h2{
+        text-align: center;
+        width: 100%;
+    }
+    #TX3 div {
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+    #TX4 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width:  500px;
+        margin: 0 auto;
+    }
+    #TX4 h2, #TX4 p{
+        width: 100%;
+    }
+}
+.carrosel{
+    width: 350px;
+    overflow: hidden; 
+    height: 350px;
+    margin: auto;
+}
+.carrosel ul{
+    list-style: none;
+     width: 1750px;
+     height: 350px;
+     display: flex;
+}
+.carrosel li{
+    position: relative;
+    animation: slide 20s infinite ease-out;
+}
+
+@keyframes slide{
+    0%{left: 0px;}
+    
+    20%{left: -350px}
+
+    40%{left: -700px}
+    
+    60%{left: -1050px;}
+
+    100%{left:0px;}
+}
+.product-container{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.product-box{
+    display: flex;
+    flex-grow: 0.5;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #5a0d99;
+    border-radius: 10px;
+    margin: 20px;
+}
+.product-img{
+    width:200px;
+    height: 210px;
+    margin: 20px;
+    cursor: pointer;
+    position: relative;
+}
+.product-img img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.product-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    border-top: 1px solid #43007a;
+}
+.p-name{
+    color: white;
+}
+.p-price{
+    color: #a730d0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.product-box:hover{
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+}
+.add-cart{
+    position: absolute;
+    right: -20px;
+    top: 10px;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #43007a;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    display: none;
+    animation: fade 0.3s;
+ 
+}
+.add-cart:hover{
+    background-color: #370064;
+    transition: all ease 0.2s;
+}
+.product-box:hover .add-cart{
+    display: flex;
+}
+.new-arrival{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+main.container {
+    background: white;
+    min-width: 320px;
+    min-height: 40vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+main h2 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+main h2::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 25px;
+    bottom: 3px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(35deg, #43007a, #43007a);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    position: relative;
+}
+
+form .input-field:first-child {
+    margin-bottom: 1.5rem;
+}
+
+.input-field .underline::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.input-field .underline::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: linear-gradient(35deg, #8e2de2, #370064);
+    transform: scaleX(0);
+    transition: all .3s ease-in-out;
+    transform-origin: left;
+}
+
+.input-field input:focus ~ .underline::after {
+    transform: scaleX(1);
+}
+
+.input-field input {
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+}
+
+.input-field input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+form input[type="submit"] {
+    margin-top: 2rem;
+    padding: 0.4rem;
+    width: 100%;
+    background: linear-gradient(to left, #43007a, #8e54e9);
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #43007a, #8e54e9);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.footer span {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.footer .social-field {
+    padding: 0.4rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.footer .social-field a i {
+    margin: 0 0.5rem;
+    width: 15px;
+}
+
+.footer .social-field a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .social-field.twitter {
+    background: linear-gradient(to right, #56a7f2, #468aca);
+}
+
+.footer .social-field.facebook {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+.footer .social-field.instagram {
+    background: linear-gradient(to right, #7840c9, #6c47ca);
+}
